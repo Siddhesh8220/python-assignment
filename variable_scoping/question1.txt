@@ -1,0 +1,10 @@
+1. num - local scope only inside num_square function
+   input_num - global scope, available in entire program
+   result - global scope, available in entire program
+ 
+2. inpu_num and result are create when progrma is interpreted and destroyed when program is finished 
+   square and result are created when function is called and destroyed when function is finished
+
+3. It will show error like result is not defined
+
+4. result would have not been created.
